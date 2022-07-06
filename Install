@@ -1,3 +1,7 @@
+### Installation
+
+## Docker CE
+
 - Update first your list package
 ```
 apt update
@@ -25,4 +29,21 @@ sudo apt install docker-ce
 - Check status Docker
 ```
 sudo systemctl status docker
+```
+
+## Docker Compose
+
+Note : installation docker compose use repository
+
+- Update list package
+```
+apt update
+```
+- Install docker compose latest
+```
+sudo apt-get install docker-compose-plugin
+```
+- Check version
+```
+docker compose version
 ```
